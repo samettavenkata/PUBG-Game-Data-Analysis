@@ -17,8 +17,8 @@ The goal of the study was to learn data analysis using various big data tools. I
 ## Screenshots
 ![Example screenshot](./img/Capture.PNG)
 ![Example screenshot](./img/Capture1.PNG)
-![Example screenshot](./img/Capture2.PNG)
-![Example screenshot](./img/capture3.PNG)
+![Example screenshot](./img/capture2.png)
+![Example screenshot](./img/Capture3.png)
 
 ## Technologies and Tools
 * Hive
