@@ -51,7 +51,7 @@ lr_predictions.select("prediction","winplaceperc","features").show(10)
 #Evaluating the model on test-set
 from pyspark.ml.evaluation import RegressionEvaluator
 lr_evaluator = RegressionEvaluator(predictionCol="prediction", \
-                 labelCol="MV",metricName="r2")
+                 labelCol="winplaceperc",metricName="r2")
 print("R Squared (R2) on test data = %g" % lr_evaluator.evaluate(lr_predictions))
 
 test_result = lr_model.evaluate(test_df)
